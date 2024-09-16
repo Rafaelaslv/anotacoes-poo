@@ -1,2 +1,7 @@
-# anotacoes-poo
-anotacoes-programacao-orientada-a-objetos(poo):conceitos-avancados
+# Neste repositório conterá minhas anotações sobre Programação Orientada a Objetos.
+
+---
+
+
+
+
