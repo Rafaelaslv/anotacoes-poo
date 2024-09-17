@@ -12,11 +12,27 @@ A maior parte das linguagens de programação tem uma estrutura voltada à Orien
 
 ### POO E SUAS VANTAGENS
 
+O GRANDE CORAÇÃO DA PROGRAMAÇÃO ORIENTADA A OBJETOS: CLASSES, MÉTODOS E ATRIBUTOS
+
 No módulo de funções deste material, você deve ter percebido algumas vantagens de se reaproveitar determinados trechos de código na escrita de algoritmos mais complexos. Alguns motivos podem ser elencados sem muita dificuldade.
 
-A POO vem ao encontro deste mesmo objetivo e possibilitará ao desenvolvedor duas grandes vantagens. A primeira delas, claro, é o reaproveitamento de código. A segunda é a segurança da aplicação.
+A POO vem ao encontro deste mesmo objetivo e possibilitará ao desenvolvedor duas grandes vantagens. A primeira delas, claro, é o reaproveitamento de código. A segunda é a segurança da aplicação (VOCÊ CONSEGUE ENCAPSULAR/VETAR ACESSO A DETERMINADAS ÁREAS DO SEU CÓDIGO / VETAR ALTERAÇÃO DE CONTEÚDOS)
 
 Este critério de segurança da aplicação é um tanto relativo em Python, pois a base de segurança - o encapsulamento, conforme veremos adiante - é tratado de modo diferente se comparado a linguagens mais engessadas como o Java, porém, isso não é um demérito da linguagem, pelo contrário, isso é uma forma de dar maior autonomia ao programador e confiar em seu bom senso de desenvolvedor.
+
+TEMOS UMA ESTRUTURA ONDE PRECISAMOS CADASTRAR UMA DETERMINADA PESSOA EM UM SISTEMA DE ESCOLA:
+
+E DA MESMA FORMA ESSE ALUNO TEM ESSES DADOS: NOME, E-MAIL, CPF, TAMBÉM TEM ALGUMAS AÇÕES QUE ELE PODE EXECUTAR, COMO FAZER MATRÍCULA (SE MATRICULAR).
+
+CASO VOCÊ TENHA 1.000 ALUNOS, VOCÊ TERÁ QUE REPLICAR AS VARIÁVEIS PARA ESSES 1.000 ALUNOS (SE VOCÊ TEM 1.000 ALUNOS, VOCÊ TERÁ 1.000 VARIÁVEIS DE NOMES / 1.000 VARIÁVEIOS DE E-MAILS / 1.000 VARIÁVEIS DE CPF / 1.000 AÇOES DE MATRICULAR).
+
+E O SISTEMA COMEÇA A FICAR COMPLEXO,PRINCIPALMENTE SE VOCÊ PRECISAR FAZER UMA ALTERAÇÃO DEPOIS, PORQUE VOCê NÃO FARÁ ESSA ALTERAÇÃO EM APENAS 1 ALUNO, MAS VOCÊ TERÁ QUE REPLICAR PARA TODOS OS 1.000 ALUNOS)
+
+A POO VEM JUSTAMENTE PARA RESOLVER ESSE TIPO DE PROBLEMAS, VOCÊ CRIA UM MOLDE (UMA ESTRUTURA PADRÃO) QUE TERÁ 1 NOME, 1 E-MAIL, 1 CPF E 1 MATRÍCULA.
+
+E PARA CADA ALUNO QUE VOCÊ FOR ADICIONAR DENTYRO DO DITEMA, VOCÊ IRÁ CRIAR O ALUNO 1 E FALA QUE ELE PERTENCE A ESSE MOLDE, CRIA O ALUNO, 2 , 30 OU 1.000 ALUNOS VOCÊ TERÁ APENAS 1 MOLDE PADRÃO QUE VOCÊ IRÁ REPLICAR PARA TODOS AQUELES ALUNOS E VOCÊ ESTARÁ ECONOMIZANDO MAIS DE 1.000 VARIÁVEIS.
+
+RESUMINDO, VOCÊ ESTARÁ USANDO POR PADRÃO 1 MOLDE QUE SERÁ REPLICADO PARA TODOS OS ELEMENTOS QUE UTILIZAREM AQUELA MESMA ESTRUTURA PADRÃO.
 
 ---
 
