@@ -38,6 +38,35 @@ RESUMINDO, VOCÊ ESTARÁ USANDO POR PADRÃO 1 MOLDE QUE SERÁ REPLICADO PARA TOD
 
 ### CLASSES, MÉTODOS E ATRIBUTOS
 
+As classes fornecem um meio de agrupar dados e funcionalidades. A criação de uma nova classe cria um novo tipo de objeto, permitindo que novas instâncias desse tipo sejam feitas. Cada instância de classe pode ter atributos anexados a ela para manter seu estado. As instâncias de classe também podem ter métodos (definidos por sua classe) para modificar seu estado. (Python.org).
+
+Em outras palavras, as classes são formas de se agrupar informações que são do mesmo tipo dentro de um escopo 
+
+Animal
+
+Atributos
+Nome
+
+Métodos
+Comer
+
+Temos uma classe chamada Animal. Esta classe pode ser considerada uma classe abstrata, uma vez que é genérica o suficiente para se adequar a qualquer tipo de animal, veja:
+
+Todo animal tem um nome
+Todo animal tem um tipo (ave, mamífero) - Atributos
+Todo animal pode comer - Método
+
+Desta forma, quando criamos um molde genérico que pode ser adaptado a qualquer objeto que o utilize, temos uma classe abstrata que passará, futuramente, dados às classes específicas.
+
+Uma característica inerente às classes é o fato de começarem sempre com letra maiúscula. Isso não interfere propriamente no funcionamento da classe (na maioria das linguagens), mas para que seja seguida uma convenção, ou seja, um “acordo de consenso da comunidade de desenvolvedores”, adota-se o mesmo padrão. Desta forma, sempre que escrever o nome de uma classe, seja ela abstrata ou não, utilize a inicial maiúscula.
+
+
+
+
+
+
+---
+
 POR CONVENÇÃO, SEMPRE QUE CRIAMOS UMA CLASSE, ELA IRÁ INICIAR COM A LETRA MAIÚSCULA E QUANDO TIVER MAIS DE 1 PALAVRA, COLOCAMOS A INICIAL DE CADA PALAVRA EM MAIÚSCULO.
 
 NA PRÁTICA, ISSO NÃO FARÁ DIFERENÇA A NÍVEL FUNCIONAL, MAS SIM A NÍVEL DE CONVENÇÃO.
