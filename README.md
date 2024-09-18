@@ -66,11 +66,19 @@ from Pessoa import Pessoa
 
 AGORA QUE OS ARQUIOS ESTÃO CONECTADOS ENTRE SI, CONSEGUIMOS PUXAR INFORMAÇÕES QUE ESTÃO LÁ NO ARQUIVO PESSOA, DENTRO DO ARQUIVO TESTE.
 
-E PARA CONSEGUIR 
+E PARA CONSEGUIR PUXAR ESSES DADOS, PRECISAMOS TER UM OBJETO QUE MANIPULE/PUXE/ALTERE/INTERAJA COM A CLASSSE PESSOA.
 
-1:20
+O nome do objeto pode qual o nome que você quiser, mas seguindo as regras das variáveis.
 
+A regra é bastante similar à forma de escrita de nomes de variáveis, com um pequeno diferencial: nas variáveis a inicial era sempre minúscula e a partir da segunda palavra havia a preocupação de colocar a letra inicial em maiúsculo. Para as classes, todas as iniciais de palavras você deve (por convenção), colocar maiúscula.
 
+Um padrão adotado também é escrever as classes em arquivos separados. Pressuponha que você tenha um projeto que tenha a Classe Animal, Classe Cachorro e a Classe Principal (que será o arquivo que executará a aplicação). A sua estrutura de arquivos ficaria mais ou menos assim:
+
+Animal.py
+Cachorro.py
+Principal.py
+
+Embora isso não seja uma obrigatoriedade, por uma questão de organização recomenda-se que você separe as classes por assunto em arquivos distintos, afinal, se o propósito da POO é prover o reaproveitamento de código, não faria muito sentido embutir um trecho de código dentro de um arquivo qualquer que, ao ser invocado para reaproveitamento traga consigo vários códigos que não têm relação alguma com o contexto que requereu sua invocação. Desta forma, sempre utilize arquivos separados com o contexto exclusivo daquela classe, combinado? Adicionalmente, recomenda-se que o nome do arquivo tenha o mesmo nome da classe também (e iniciem em maiúsculo, como no exemplo acima). Novamente, isso é mais uma questão de convenção, mas é bom seguir um padrão universal.
 
 ---
 
