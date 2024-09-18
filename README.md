@@ -60,8 +60,15 @@ Desta forma, quando criamos um molde genérico que pode ser adaptado a qualquer 
 
 Uma característica inerente às classes é o fato de começarem sempre com letra maiúscula. Isso não interfere propriamente no funcionamento da classe (na maioria das linguagens), mas para que seja seguida uma convenção, ou seja, um “acordo de consenso da comunidade de desenvolvedores”, adota-se o mesmo padrão. Desta forma, sempre que escrever o nome de uma classe, seja ela abstrata ou não, utilize a inicial maiúscula.
 
+### PARA UM ARQUIVO ENXERGAR O OUTRO, PRECISO FAZER A IMPORTAÇÃO DO ARQUIVO. (PARA ISSO, USAREMOS O COMANDO DE IMPORT)
 
+from Pessoa import Pessoa
 
+AGORA QUE OS ARQUIOS ESTÃO CONECTADOS ENTRE SI, CONSEGUIMOS PUXAR INFORMAÇÕES QUE ESTÃO LÁ NO ARQUIVO PESSOA, DENTRO DO ARQUIVO TESTE.
+
+E PARA CONSEGUIR 
+
+1:20
 
 
 
