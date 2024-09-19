@@ -70,6 +70,16 @@ E PARA CONSEGUIR PUXAR ESSES DADOS, PRECISAMOS TER UM OBJETO QUE MANIPULE/PUXE/A
 
 O nome do objeto pode qual o nome que você quiser, mas seguindo as regras das variáveis.
 
+O nome do meu objeto será pessoa e ele vai ser uma instância da minha classe pessoa.
+
+pessoa = Pessoa() - QUANDO EU FAÇO ESSE COMANDO, AUMATICAMENTE DENTRO DO OBJETO pessoa EU TENHO TODAS AS INFORMAÇÕES QUE ESTÃO APONTADAS NO ARQUIVO Pessoa.
+
+PARA PUXAR O nome: pessoa.nome
+
+FICA MUITO MAIS PRÁTICO DA GENTE CONSEGUIR TRABALHAR COM INFORMAÇÕES ENCAPSULANDO TUDO DENTRO DE UMA ESTRUTURA SÓ.
+
+---
+
 A regra é bastante similar à forma de escrita de nomes de variáveis, com um pequeno diferencial: nas variáveis a inicial era sempre minúscula e a partir da segunda palavra havia a preocupação de colocar a letra inicial em maiúsculo. Para as classes, todas as iniciais de palavras você deve (por convenção), colocar maiúscula.
 
 Um padrão adotado também é escrever as classes em arquivos separados. Pressuponha que você tenha um projeto que tenha a Classe Animal, Classe Cachorro e a Classe Principal (que será o arquivo que executará a aplicação). A sua estrutura de arquivos ficaria mais ou menos assim:
