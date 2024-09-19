@@ -114,6 +114,17 @@ POR PADRÃO, QUANDO VOCê TEM UM MÉTODO, OU VOCÊ SIMPLESMENTE O CHAMA EXECUTAN
 
 OU VOCÊ USA VALORES PADRÕES DAQUELA CLASSE.
 
+---
+
+### ATRIBUTOS
+
+Dentro de cada classe é possível inserir atributos, ou seja, características daquela classe. Em geral, esses atributos são substantivos ou adjetivos e exprimem uma expressão daquele objeto na vida real. Inclusive, esta é mais uma das características da POO: abstrair objetos do mundo real levando-os para o mundo virtual da maneira mais fidedigna possível.
+
+Em outras palavras, os atributos são variáveis. É isso mesmo. Atributos são variáveis dentro da POO, ou seja, são elementos capazes de receber algum valor.
+
+---
+
+
 
 
 
